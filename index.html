@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>River Raid - MB Version</title>
-</head>
-<body>
-    <h1 class="titleGame"> River Raid </h1>
-    <div class="container">
-        <div class="game">
-            <canvas id="gameScreen" width="800" height="600"></canvas>
-        </div>
-        <div class="score">
-            <h2>Score</h2>
-            <p id="score">0</p>
-        </div>
-        <script src="game.js"></script>
-
-
-    
-</body>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      canvas {
+        border: 1px solid #d3d3d3;
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body onload="startGame()">
+    <script src="./index.js"></script>
+    <p>Acima nosso canvas</p>
+  </body>
 </html>
