@@ -14,3 +14,14 @@ h1 {
   font-size: 2em;
   color: #4d4d4d;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* center a element with position absolute */
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
