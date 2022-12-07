@@ -1,0 +1,13 @@
+.titleGame {
+  margin-top: 26px;
+  text-align: "center";
+  font-size: "50px";
+  font-family: "Arial";
+  color: "white";
+}
+
+.game {
+  width: 600px;
+  height: 500px;
+  background-color: #000;
+}
