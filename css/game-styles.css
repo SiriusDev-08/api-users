@@ -9,5 +9,8 @@
 .game {
   width: 600px;
   height: 500px;
-  background-color: #000;
+  background-color: #fff;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
 }
