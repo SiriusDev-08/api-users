@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  background-color: var(--blue-800);
+  background-color: var(--border-dark);
   color: var(--white);
   height: 100%;
   display: flex;
